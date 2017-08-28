@@ -2,6 +2,12 @@
 
 Solves the problem of easily registering routes and subroutes for different modules when using mux.
 
+## Installation
+
+```
+go get -u github.com/cruzj6/muxRouteRegistry.go
+```
+
 ## Usage
 ```
 const BASE_ROUTE = '/someModule/'
