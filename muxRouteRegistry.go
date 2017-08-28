@@ -17,7 +17,7 @@ type RegisteredRoute struct {
 
 var registeredRoutes = []RegisteredRoute{}
 
-func SetupRoutes(muxRouter) *mux.Router{
+func SetupRoutes(muxRouter *mux.Router) *mux.Router{
 	r := muxRouter
 
 	for _, route := range registeredRoutes {
