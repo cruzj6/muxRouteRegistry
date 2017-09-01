@@ -5,7 +5,7 @@ Solves the problem of easily registering routes and subroutes for different modu
 ## Installation
 
 ```
-go get -u github.com/cruzj6/muxRouteRegistry.go
+go get -u github.com/cruzj6/muxRouteRegistry
 ```
 
 ## Usage
